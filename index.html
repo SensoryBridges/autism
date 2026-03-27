@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)file:///C:/Users/qxb843/Downloads/autism-community-deep-dive.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Autism Community Deep Dive — ICP &amp; Market Intelligence Report</title>
+<link href="./index_files/css2" rel="stylesheet">
+<style>
+:root{--bg:#08090d;--s:#11121a;--s2:#191a26;--b:#252638;--t:#e6e6f2;--m:#7e7e9a;--a:#6c5ce7;--g:#55efc4;--p:#fd79a8;--go:#fdcb6e;--bl:#74b9ff;--r:#ff6464;--tl:#00cec9}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--t);line-height:1.7;overflow-x:hidden}
+.conf{background:linear-gradient(135deg,rgba(255,100,100,.08),rgba(108,92,231,.08));border:1px solid rgba(255,100,100,.25);border-radius:10px;padding:14px;max-width:1060px;margin:24px auto;text-align:center;font-family:'Space Mono',monospace;font-size:11px;color:var(--r);text-transform:uppercase;letter-spacing:2px}
+.hero{text-align:center;padding:56px 24px 40px;max-width:800px;margin:0 auto}
+.badge{display:inline-block;background:var(--s2);border:1px solid var(--b);padding:5px 14px;border-radius:100px;font-family:'Space Mono',monospace;font-size:10px;color:var(--tl);text-transform:uppercase;letter-spacing:2px;margin-bottom:16px}
+.hero h1{font-size:clamp(26px,5vw,48px);font-weight:900;letter-spacing:-2px;line-height:1.1}
+.hero h1 em{font-style:normal;color:var(--a)}
+.hero-sub{color:var(--m);font-size:15px;margin-top:10px}
+.meta{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-top:20px;font-family:'Space Mono',monospace;font-size:10px;color:var(--m);text-transform:uppercase;letter-spacing:1.5px}
+.nav{position:sticky;top:0;z-index:100;background:rgba(8,9,13,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--b);padding:10px 16px;overflow-x:auto;white-space:nowrap}
+.nav::-webkit-scrollbar{height:0}
+.nav a{display:inline-block;color:var(--m);text-decoration:none;font-size:11px;font-family:'Space Mono',monospace;text-transform:uppercase;letter-spacing:1px;padding:5px 10px;border-radius:6px;transition:.2s}
+.nav a:hover{color:var(--tl);background:var(--s2)}
+.w{max-width:1060px;margin:0 auto;padding:0 24px}
+.div{height:1px;background:linear-gradient(90deg,transparent,var(--b),transparent);max-width:1060px;margin:0 auto}
+.sec{padding:48px 0 24px}
+.sec-n{font-family:'Space Mono',monospace;font-size:10px;color:var(--a);text-transform:uppercase;letter-spacing:3px;margin-bottom:6px}
+.sec h2{font-size:26px;font-weight:800;letter-spacing:-1px;margin-bottom:6px}
+.sec-d{color:var(--m);font-size:14px;margin-bottom:24px;max-width:700px}
+.g{display:grid;gap:14px;margin-bottom:20px}
+.g2{grid-template-columns:1fr}
+.g3{grid-template-columns:1fr}
+@media(min-width:640px){.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:1fr 1fr 1fr}}
+.c{background:var(--s);border:1px solid var(--b);border-radius:10px;padding:18px;transition:.25s}
+.c:hover{border-color:var(--a);transform:translateY(-1px)}
+.tag{font-family:'Space Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:1.5px;padding:2px 8px;border-radius:3px;display:inline-block;margin-bottom:8px}
+.t-pain{background:rgba(253,121,168,.12);color:var(--p)}
+.t-tool{background:rgba(116,185,255,.12);color:var(--bl)}
+.t-where{background:rgba(0,206,201,.12);color:var(--tl)}
+.t-icp{background:rgba(108,92,231,.12);color:var(--a)}
+.t-beh{background:rgba(253,203,110,.12);color:var(--go)}
+.t-val{background:rgba(85,239,196,.12);color:var(--g)}
+.t-num{background:rgba(255,100,100,.12);color:var(--r)}
+.c h3{font-size:15px;font-weight:700;margin-bottom:5px}
+.c p,.c li{color:var(--m);font-size:13px;line-height:1.65}
+.c ul{padding-left:16px;margin-top:4px}
+.c li{margin-bottom:3px}
+.hl{background:linear-gradient(135deg,rgba(108,92,231,.06),rgba(0,206,201,.06));border:1px solid var(--b);border-left:3px solid var(--a);border-radius:0 10px 10px 0;padding:18px 22px;margin:20px 0}
+.hl h4{font-size:14px;font-weight:700;margin-bottom:4px;color:var(--tl)}
+.hl p{font-size:13px;color:var(--m);line-height:1.65}
+.sr{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;margin:20px 0}
+.st{background:var(--s);border:1px solid var(--b);border-radius:10px;padding:14px;text-align:center}
+.st-n{font-size:26px;font-weight:900;background:linear-gradient(135deg,var(--a),var(--tl));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.st-l{font-size:9px;font-family:'Space Mono',monospace;color:var(--m);text-transform:uppercase;letter-spacing:1px;margin-top:2px}
+.footer{text-align:center;padding:40px 24px;font-size:11px;color:var(--m);font-family:'Space Mono',monospace;border-top:1px solid var(--b);max-width:1060px;margin:48px auto 0}
+.rank{display:flex;align-items:center;gap:12px;margin-bottom:4px}
+.rank-num{font-family:'Space Mono',monospace;font-size:20px;font-weight:900;color:var(--a);min-width:32px}
+</style>
+</head>
+<body>
+
+<div class="conf">⬤ CONFIDENTIAL — SENSORY BRIDGES, INC. — MARKET INTELLIGENCE ⬤</div>
+
+<div class="hero">
+  <div class="badge">◆ Fortune 500 Strategic Analysis</div>
+  <h1>Autism Community <em>Deep Dive</em></h1>
+  <p class="hero-sub">Pain Point Mapping · Behavioral Patterns · Top Tools &amp; Therapies · Community Intelligence · ICP Profiles Ranked by Market Size</p>
+  <div class="meta">
+    <span>March 27, 2026</span>
+    <span>Sensory Bridges, Inc.</span>
+    <span>$8.55B Market</span>
+  </div>
+</div>
+
+<nav class="nav">
+  <a href="file:///C:/Users/qxb843/Downloads/autism-community-deep-dive.html#market">Market</a>
+  <a href="file:///C:/Users/qxb843/Downloads/autism-community-deep-dive.html#pain">15 Pain Points</a>
+  <a href="file:///C:/Users/qxb843/Downloads/autism-community-deep-dive.html#behaviors">Behaviors</a>
+  <a href="file:///C:/Users/qxb843/Downloads/autism-community-deep-dive.html#where">Where They Are</a>
+  <a href="file:///C:/Users/qxb843/Downloads/autism-community-deep-dive.html#tools">Top 20 Tools</a>
+  <a href="file:///C:/Users/qxb843/Downloads/autism-community-deep-dive.html#reading">What They Read</a>
+  <a href="file:///C:/Users/qxb843/Downloads/autism-community-deep-dive.html#icps">ICPs Ranked</a>
+  <a href="file:///C:/Users/qxb843/Downloads/autism-community-deep-dive.html#autistic-icp">Autistic Individual ICP</a>
+  <a href="file:///C:/Users/qxb843/Downloads/autism-community-deep-dive.html#strategy">Strategy</a>
+</nav>
+
+<!-- MARKET OVERVIEW -->
+<div class="div"></div>
+<section class="sec w" id="market">
+  <div class="sec-n">Section 01</div>
+  <h2>Market Overview</h2>
+  <p class="sec-d">The autism ecosystem is one of the fastest-growing healthcare and assistive technology markets globally.</p>
+  <div class="sr">
+    <div class="st"><div class="st-n">1:31</div><div class="st-l">US Children (CDC 2025)</div></div>
+    <div class="st"><div class="st-n">6.8M</div><div class="st-l">Americans with ASD</div></div>
+    <div class="st"><div class="st-n">$8.55B</div><div class="st-l">Treatment Market 2025</div></div>
+    <div class="st"><div class="st-n">$4.4B</div><div class="st-l">US ABA Market</div></div>
+    <div class="st"><div class="st-n">8.7%</div><div class="st-l">CAGR to 2032</div></div>
+    <div class="st"><div class="st-n">3.2%</div><div class="st-l">Prevalence Rate (8yr olds)</div></div>
+  </div>
+  <div class="hl">
+    <h4>Key Market Intelligence</h4>
+    <p>CDC data from May 2025 shows approximately 1 in 31 children aged 8 years (3.2%) have been identified with ASD. The incidence has soared from 1 in 150 in 2000 to 1 in 31 today, and 6.8 million children and adults now live with autism. The global ASD treatment market was valued at $7.96 billion in 2024 and is projected to reach $15.36 billion by 2032. The US ABA treatment market alone is a $4.4 billion growth market with waiting lists, significant untapped demand, and private equity backing new ventures. Autism is 3x more common in boys than girls, though female diagnosis rates are rapidly increasing.</p>
+  </div>
+</section>
+
+<!-- 15 PAIN POINTS -->
+<div class="div"></div>
+<section class="sec w" id="pain">
+  <div class="sec-n">Section 02</div>
+  <h2>Top 15 Pain Points — Autism Community</h2>
+  <p class="sec-d">Sourced from Reddit (r/autism 500K+, r/Autism_Parenting, r/AutisticAdults, r/Aspergers), Facebook groups (100K+ members each), TikTok (#autismmom 12B+ views), caregiver forums, and published research analyzing 300K+ posts.</p>
+
+  <div class="g">
+    <div class="c"><span class="tag t-pain">Pain #1 — Communication Barrier</span><h3>"My child has a rich inner world but no way to show it"</h3><p>Nonverbal children experience immense frustration when unable to share their needs, thoughts, and feelings, which affects their emotional well-being and personal growth. 25-30% of children with autism are nonverbal or minimally verbal. Parents spend thousands on AAC devices that are clunky, expensive, and capture basic needs only — not emotional states, personality, or the whole person. This is the #1 pain point by volume across every platform.</p></div>
+
+    <div class="c"><span class="tag t-pain">Pain #2 — Masking &amp; Identity Loss</span><h3>"Where does the mask end and I begin?"</h3><p>Many users described confusion about where their authentic personality ended and their learned behaviors began. The discussions included both frustration with societal expectations and relief when able to unmask in safe spaces. Autistic adults report spending decades performing neurotypicality. The exhaustion of constant masking leads to burnout, identity crisis, and mental health collapse. This is the dominant theme for autistic adults on Reddit.</p></div>
+
+    <div class="c"><span class="tag t-pain">Pain #3 — Diagnosis Delays &amp; Gatekeeping</span><h3>"I'm 35 and just found out"</h3><p>Late diagnosis — especially for women and people of color — is a massive theme. Average age of diagnosis for women is 25-35 vs. 4-8 for boys. The "you don't look autistic" dismissal from healthcare providers creates rage, grief, and lost years of support. Women's communities (r/AutismInWomen) discuss this more than any other topic.</p></div>
+
+    <div class="c"><span class="tag t-pain">Pain #4 — Sensory Overwhelm</span><h3>"The world is physically painful"</h3><p>Sensory processing challenges — fluorescent lights, fabric textures, background noise, food textures, crowded spaces — make daily life a minefield. Parents report that sensory triggers are the #1 cause of observable behavioral responses in their children. No tool tracks triggers and patterns comprehensively across environments.</p></div>
+
+    <div class="c"><span class="tag t-pain">Pain #5 — Therapy Fragmentation</span><h3>"5 therapists, 5 different apps, zero integration"</h3><p>Families juggle ABA, speech therapy, occupational therapy, social skills groups, and school-based services. Each uses different tools, different tracking methods, different goals. Parents are the only integration layer — and they're burned out being the project manager of their child's development.</p></div>
+
+    <div class="c"><span class="tag t-pain">Pain #6 — School System Battles</span><h3>"The IEP meeting is my worst nightmare"</h3><p>Parents report spending 5-20 hours preparing for IEP meetings. Schools under-resource support. Teachers lack autism training. Accommodations are fought for, not offered. Parents feel adversarial with the system meant to help their child. This generates the most emotional content on parent forums.</p></div>
+
+    <div class="c"><span class="tag t-pain">Pain #7 — Social Isolation</span><h3>"No one invites us anymore"</h3><p>Both parents and autistic individuals report profound isolation. Families stop receiving invitations after one behavioral incident. Autistic adults describe friendship as the hardest thing in their life. Users share frustrations with the lack of awareness about autism in their relationships and the emotional strain that can result.</p></div>
+
+    <div class="c"><span class="tag t-pain">Pain #8 — Caregiver Burnout</span><h3>"I love my child and I'm drowning"</h3><p>Caregiver burnout is the silent crisis. Parents — overwhelmingly mothers — report depression, anxiety, marriage breakdown, financial strain, and guilt for feeling overwhelmed. The "I'm not enough" narrative dominates private parent groups. Fathers are largely absent from community discussions, creating additional resentment.</p></div>
+
+    <div class="c"><span class="tag t-pain">Pain #9 — Financial Devastation</span><h3>"$50K/year out of pocket for therapies"</h3><p>ABA therapy: $40K-$60K/yr. Speech therapy: $200-$400/session. OT: $150-$300/session. Many insurance plans cap coverage. Families relocate for better state benefits. The financial burden is cited as the #2 reason for divorce in autism families.</p></div>
+
+    <div class="c"><span class="tag t-pain">Pain #10 — Relationship Strain</span><h3>"Autism changed my marriage"</h3><p>The analysis highlighted how users discuss romantic relationships in distinct stages, emphasizing communication difficulties and emotional labor. Divorce rates in autism families estimated at 80%. Partners disagree on treatment approaches, parenting styles, and how much to accommodate vs. push.</p></div>
+
+    <div class="c"><span class="tag t-pain">Pain #11 — Transition to Adulthood</span><h3>"The cliff at 18"</h3><p>Services drop off dramatically at age 18-22. The "services cliff" leaves families scrambling. Employment for autistic adults is approximately 15-20%. Housing options are limited. The gap between childhood support and adult services is called "falling off a cliff" in every community.</p></div>
+
+    <div class="c"><span class="tag t-pain">Pain #12 — Medication Side Effects</span><h3>"The meds help one thing but break three others"</h3><p>Risperidone, Aripiprazole, and SSRIs are commonly prescribed but with significant side effects: weight gain, sedation, metabolic issues. Parents agonize over medicating their children. No comprehensive tool tracks medication-to-behavior correlations across the whole day.</p></div>
+
+    <div class="c"><span class="tag t-pain">Pain #13 — ABA Controversy</span><h3>"Is the therapy helping or hurting?"</h3><p>Analysis of behavior therapist subreddits revealed a primary theme of users articulating complaints about systemic issues within the field of behavior analysis, including lack of adequate training. The autistic adult community is deeply divided on ABA — many adults who underwent ABA as children describe it as traumatic. Parents feel caught between "this is the only insurance-covered therapy" and autistic adults saying "this damaged me."</p></div>
+
+    <div class="c"><span class="tag t-pain">Pain #14 — Co-Occurring Conditions</span><h3>"It's never just autism"</h3><p>ADHD (60-70% co-occurrence), anxiety (40-50%), GI issues (nearly 50%), sleep disorders (50-80%), epilepsy (20-30%). Each condition has its own specialist, its own medication, its own impact. No tool connects the dots across conditions to show the whole-person picture.</p></div>
+
+    <div class="c"><span class="tag t-pain">Pain #15 — Blame &amp; Stigma</span><h3>"People think I caused this"</h3><p>Parents express frustration with family members or people in the general population who still hint at parental fault. Despite scientific consensus that autism is neurodevelopmental and primarily genetic, parents — especially mothers — face blame from extended family, strangers, and even some healthcare providers. The "bad parenting" myth persists.</p></div>
+  </div>
+</section>
+
+<!-- BEHAVIORAL PATTERNS -->
+<div class="div"></div>
+<section class="sec w" id="behaviors">
+  <div class="sec-n">Section 03</div>
+  <h2>Behavioral Patterns &amp; Motivations</h2>
+  <p class="sec-d">What drives this community's decisions, purchases, and engagement.</p>
+  <div class="g g2">
+    <div class="c"><span class="tag t-beh">Behavior</span><h3>Research-Obsessed</h3><p>Autism parents are the most research-intensive consumer segment in healthcare. They read peer-reviewed studies, compare therapies across countries, track data on their own children, and challenge professionals with evidence. They don't accept "trust me" — they demand data.</p></div>
+    <div class="c"><span class="tag t-beh">Behavior</span><h3>Community-Validated Purchasing</h3><p>Purchases are driven by peer recommendation, not advertising. "Has anyone tried X?" posts drive more sales than any marketing campaign. Products that get endorsed in Facebook parent groups or Reddit threads see exponential adoption.</p></div>
+    <div class="c"><span class="tag t-beh">Behavior</span><h3>Trial-Everything Mentality</h3><p>Parents will try anything that has a chance of helping — diets, supplements, apps, devices, therapies, sensory tools. But they cycle fast. If something doesn't show results in 2-4 weeks, they move on and share negative reviews.</p></div>
+    <div class="c"><span class="tag t-beh">Behavior</span><h3>Fierce Advocacy</h3><p>This community fights harder for their children than any other demographic. They will sue schools, testify at legislatures, organize protests, and create nonprofits. Once they believe in a product, they become its most powerful evangelists.</p></div>
+    <div class="c"><span class="tag t-beh">Behavior</span><h3>Privacy-Hyperaware</h3><p>Parents are extremely cautious about their child's data. They've been burned by schools sharing information, insurers denying coverage based on records, and apps selling behavioral data. Zero-storage architecture is not a feature — it's a prerequisite.</p></div>
+    <div class="c"><span class="tag t-beh">Behavior</span><h3>Nighttime Researchers</h3><p>Peak engagement: 9pm-1am. After the kids are asleep, parents research, vent, cry, and connect online. Marketing reach is highest during these hours. Weekend mornings are secondary engagement windows.</p></div>
+    <div class="c"><span class="tag t-beh">Motivation</span><h3>"I want my child to be SEEN"</h3><p>The deepest emotional driver: parents want the world to see their child as a complete human being — not a diagnosis, not a deficit, not a problem. Products that help their child be understood as a PERSON win hearts and wallets.</p></div>
+    <div class="c"><span class="tag t-beh">Motivation</span><h3>"I want to stop being the only one who understands them"</h3><p>Parents are exhausted being the sole translator. They will pay anything for a tool that lets teachers, family members, peers, and therapists understand their child without the parent having to explain everything every time.</p></div>
+  </div>
+</section>
+
+<!-- WHERE THEY ARE -->
+<div class="div"></div>
+<section class="sec w" id="where">
+  <div class="sec-n">Section 04</div>
+  <h2>Where They Communicate, Vent &amp; Get Information</h2>
+
+  <div class="g g2">
+    <div class="c"><span class="tag t-where">Reddit</span><h3>Subreddits (Primary Research Hub)</h3>
+    <ul>
+      <li><strong>r/autism</strong> — 500K+ members, 174K+ posts analyzed in research. General discussion, identity, relationships</li>
+      <li><strong>r/Autism_Parenting</strong> — Parent-specific. IEP battles, therapy reviews, daily struggles</li>
+      <li><strong>r/AutisticAdults</strong> — Late-diagnosed adults, workplace challenges, masking</li>
+      <li><strong>r/AutismInWomen</strong> — Female-specific diagnosis, masking in women, pregnancy</li>
+      <li><strong>r/AutisticWithADHD</strong> — Co-occurring conditions, medication management</li>
+      <li><strong>r/Aspergers</strong> — Higher-support-needs adults, social difficulties</li>
+      <li><strong>r/SpicyAutism</strong> — Higher support needs, raw unfiltered experiences</li>
+      <li><strong>r/AutisticCreatives</strong> — Art, special interests, strengths-based</li>
+    </ul></div>
+    <div class="c"><span class="tag t-where">Facebook</span><h3>Groups (Highest Engagement)</h3>
+    <ul>
+      <li><strong>Autism Moms / Dads</strong> — 100K+ members. Daily support, product recommendations</li>
+      <li><strong>Nonverbal Autism Support</strong> — 50K+. AAC tools, communication strategies</li>
+      <li><strong>Autism Parents Unite</strong> — Regional chapters, meetups, advocacy</li>
+      <li><strong>Actually Autistic Adults</strong> — Self-advocates, neurodiversity movement</li>
+      <li><strong>Autism ABA Therapy Parents</strong> — Pro-ABA discussion, therapy reviews</li>
+      <li><strong>Sensory Processing Disorder Parent Support</strong> — Sensory tools, OT strategies</li>
+      <li><strong>IEP/504 Support Groups</strong> — Legal strategies, school battles</li>
+    </ul></div>
+    <div class="c"><span class="tag t-where">TikTok / Instagram</span><h3>Visual Platforms (Fastest Growing)</h3>
+    <ul>
+      <li><strong>#autismmom</strong> — 12B+ TikTok views. Daily life clips, vent videos, product demos</li>
+      <li><strong>#actuallyautistic</strong> — 8B+ views. Self-advocacy, identity content</li>
+      <li><strong>#autismacceptance</strong> — Neurodiversity framing, awareness campaigns</li>
+      <li><strong>#aac</strong> — Communication device demos, success stories</li>
+      <li><strong>#sensoryfriendly</strong> — Product reviews, sensory room tours</li>
+      <li><strong>Influencers:</strong> Paige Layle, The Aspie World, AutieMum, Purple Ella, Yo Samdy Sam</li>
+    </ul></div>
+    <div class="c"><span class="tag t-where">Organizations &amp; Websites</span><h3>Trusted Information Sources</h3>
+    <ul>
+      <li><strong>Autism Speaks</strong> — Largest org. Controversial in autistic-adult community but dominant in parent community</li>
+      <li><strong>ASAN (Autistic Self Advocacy Network)</strong> — Trusted by autistic adults, "nothing about us without us"</li>
+      <li><strong>The Autism Society of America</strong> — Chapters nationwide, local support</li>
+      <li><strong>CDC Autism Resources</strong> — Diagnostic data, milestone checklists</li>
+      <li><strong>Child Mind Institute</strong> — Clinical guidance, treatment options</li>
+      <li><strong>ASAT (Association for Science in Autism Treatment)</strong> — Evidence-based therapy reviews</li>
+      <li><strong>Autism Navigator</strong> — Video-based parent education (University of Florida)</li>
+      <li><strong>The Mighty, Spectrum News, The Transmitter</strong> — Journalism and community stories</li>
+    </ul></div>
+  </div>
+</section>
+
+<!-- TOP 20 TOOLS -->
+<div class="div"></div>
+<section class="sec w" id="tools">
+  <div class="sec-n">Section 05</div>
+  <h2>Top 20 Tools &amp; Therapies Used by This Community</h2>
+  <p class="sec-d">Ranked by adoption rate, community discussion volume, and clinical recommendation frequency.</p>
+
+  <div class="g g2">
+    <div class="c"><span class="tag t-tool">Communication</span><h3>1. Proloquo2Go</h3><p>The gold-standard AAC app. Symbol-based, customizable voice, expensive ($250). Used by nonverbal individuals across all ages. Mentioned in nearly every AAC discussion.</p></div>
+    <div class="c"><span class="tag t-tool">Therapy</span><h3>2. ABA Therapy (Applied Behavior Analysis)</h3><p>Most insurance-covered therapy. $40K-$60K/yr. 50%+ of families use it. Controversial among autistic adults. $4.4B US market. Dominant but divisive.</p></div>
+    <div class="c"><span class="tag t-tool">Therapy</span><h3>3. Speech-Language Therapy</h3><p>Second most-utilized therapy. Targets verbal communication, social pragmatics, feeding issues. $150-$400/session. Near-universal adoption.</p></div>
+    <div class="c"><span class="tag t-tool">Therapy</span><h3>4. Occupational Therapy (OT)</h3><p>Sensory integration, fine motor skills, daily living skills. $150-$300/session. Essential for sensory processing challenges. Every parent community discusses OT extensively.</p></div>
+    <div class="c"><span class="tag t-tool">Communication</span><h3>5. TouchChat HD</h3><p>AAC app with WordPower vocabulary system. Customizable, promotes natural conversation. Popular alternative to Proloquo2Go.</p></div>
+    <div class="c"><span class="tag t-tool">Communication</span><h3>6. PECS (Picture Exchange Communication System)</h3><p>Low-tech picture card system. Often first communication tool introduced. Training required for parents and schools. Foundation before high-tech AAC.</p></div>
+    <div class="c"><span class="tag t-tool">App</span><h3>7. Choiceworks Calendar</h3><p>Visual scheduling app. Helps with transitions, routines, emotional regulation. Recommended by nearly every OT and ABA provider.</p></div>
+    <div class="c"><span class="tag t-tool">App</span><h3>8. Speech Blubs</h3><p>Video modeling for speech therapy. Fun, engaging, kid-friendly. Uses peer video models to motivate speech practice. Fast-growing user base.</p></div>
+    <div class="c"><span class="tag t-tool">App</span><h3>9. Autism MITA (Mental Imagery Therapy)</h3><p>Ivy League-developed. Puzzle-based cognitive development. Targets attention, language, and visual skills. Scientifically-grounded. Free.</p></div>
+    <div class="c"><span class="tag t-tool">App</span><h3>10. Otsimo (Special Education &amp; Speech)</h3><p>Gamified learning platform. Special education games + speech therapy. Used in 90+ countries. Evidence-based. Parent favorite internationally.</p></div>
+    <div class="c"><span class="tag t-tool">Tracking</span><h3>11. Birdhouse for Autism</h3><p>Comprehensive tracking app: behavior, medical, schedules, nutrition, sleep, medication. The closest thing to a data hub for parents. Highly recommended in parent groups.</p></div>
+    <div class="c"><span class="tag t-tool">Tracking</span><h3>12. Behavior Tracker Pro</h3><p>Data collection tool for BCBAs, therapists, and parents. Graphs behavior frequency, duration, intensity. Essential for ABA documentation.</p></div>
+    <div class="c"><span class="tag t-tool">App</span><h3>13. GoTalk NOW</h3><p>Free AAC app (lite version). Flexible, easy entry point for families exploring augmentative communication.</p></div>
+    <div class="c"><span class="tag t-tool">Social Skills</span><h3>14. Model Me Kids</h3><p>Video modeling for social situations. Real-life scenarios teach greetings, conversation, playground behavior. Used in schools and therapy.</p></div>
+    <div class="c"><span class="tag t-tool">App</span><h3>15. First Then Visual Schedule</h3><p>Portable visual activity schedules. Improves transitions and reduces anxiety. Used daily in most autism households and classrooms.</p></div>
+    <div class="c"><span class="tag t-tool">Social Skills</span><h3>16. Sosh (Social Skills)</h3><p>5-R framework: Relate, Relax, Regulate, Reason, Recognize. Used by therapists and parents. Comprehensive social skills development system.</p></div>
+    <div class="c"><span class="tag t-tool">Regulation</span><h3>17. Breathe, Think, Do with Sesame</h3><p>Emotional regulation app from Sesame Workshop. Teaches problem-solving and calming strategies. Free. Widely recommended for young children.</p></div>
+    <div class="c"><span class="tag t-tool">Therapy</span><h3>18. Sensory Integration Therapy</h3><p>Exposing individuals to various sensory experiences to help process and integrate sensory information. Growing adoption. Often delivered through OT.</p></div>
+    <div class="c"><span class="tag t-tool">Emerging</span><h3>19. Robot-Assisted Therapy</h3><p>Robots teaching social cues and emotional responses. Growing research base. Programs at universities and specialty clinics.</p></div>
+    <div class="c"><span class="tag t-tool">Emerging</span><h3>20. VR-Based Social Training</h3><p>Virtual reality environments for safe social skills practice. Allows repetition without real-world consequences. Major R&amp;D investment in 2025.</p></div>
+  </div>
+
+  <div class="hl">
+    <h4>The Gap MirrorMatch Fills</h4>
+    <p>NONE of these 20 tools offer: a living avatar that captures the WHOLE PERSON (not just deficits), bilateral biofeedback matching, zero-storage privacy, cross-therapy integration, the ability for someone else to EXPERIENCE what being this person feels like, or a nonverbal child's emotional state translated through a living digital self. Every tool above addresses one fragment. MirrorMatch addresses the human.</p>
+  </div>
+</section>
+
+<!-- WHAT THEY READ -->
+<div class="div"></div>
+<section class="sec w" id="reading">
+  <div class="sec-n">Section 06</div>
+  <h2>What They're Reading &amp; Following</h2>
+  <div class="g g3">
+    <div class="c"><span class="tag t-where">Books</span><h3>Top Parent Books</h3>
+    <ul>
+      <li>Uniquely Human (Barry Prizant)</li>
+      <li>The Reason I Jump (Naoki Higashida)</li>
+      <li>NeuroTribes (Steve Silberman)</li>
+      <li>Ten Things Every Child with Autism Wishes You Knew (Ellen Notbohm)</li>
+      <li>An Early Start for Your Child with Autism (Rogers, Dawson, Vismara)</li>
+      <li>Thinking in Pictures (Temple Grandin)</li>
+      <li>Unmasking Autism (Devon Price)</li>
+    </ul></div>
+    <div class="c"><span class="tag t-where">Podcasts</span><h3>Top Podcasts</h3>
+    <ul>
+      <li>Autism Stories</li>
+      <li>The Autism Dad Podcast</li>
+      <li>Embracing Autism</li>
+      <li>Noncompliant Podcast</li>
+      <li>All Autism Talk</li>
+      <li>Autism Live (YouTube)</li>
+      <li>Two Sides of the Spectrum</li>
+    </ul></div>
+    <div class="c"><span class="tag t-where">Influencers</span><h3>Top Voices</h3>
+    <ul>
+      <li>Paige Layle (TikTok/YouTube)</li>
+      <li>The Aspie World (YouTube)</li>
+      <li>Yo Samdy Sam (YouTube)</li>
+      <li>Purple Ella (YouTube)</li>
+      <li>Dr. Temple Grandin</li>
+      <li>Lois Brady (Autism Digest / iTherapy)</li>
+      <li>Autism Speaks social channels</li>
+    </ul></div>
+  </div>
+</section>
+
+<!-- ICPs RANKED -->
+<div class="div"></div>
+<section class="sec w" id="icps">
+  <div class="sec-n">Section 07</div>
+  <h2>Ideal Customer Profiles — Ranked by Market Size</h2>
+  <p class="sec-d">Ordered by total addressable population and spending capacity. Each ICP includes demographics, psychographics, purchasing behavior, and marketing approach.</p>
+
+  <!-- ICP 1 -->
+  <div class="c" style="margin-bottom:16px;border-left:3px solid var(--p)">
+    <div class="rank"><div class="rank-num">#1</div><h3>The Warrior Mom (Primary Caregiver of Child 2-12)</h3></div>
+    <span class="tag t-num">~4.5M US Households · $200-$600/mo Spend</span>
+    <p><strong>Demographics:</strong> Female, 28-45, married or single. Household income $45K-$150K. Lives in suburbs or small cities. Has 1-3 children, at least one diagnosed. Likely left career or reduced hours. Disproportionately white and Black/Latina (CDC data shows rising diagnosis across all races).</p>
+    <p><strong>Psychographics:</strong> Research-obsessed, protective, exhausted, guilt-ridden, fiercely loving. Identifies as her child's primary advocate. Oscillates between hope and despair. Deeply spiritual or purpose-driven. Finds identity in the fight for her child.</p>
+    <p><strong>Digital behavior:</strong> Facebook groups (daily), Reddit lurker, TikTok consumer (especially #autismmom), Instagram follower of autism accounts. Peak engagement 9pm-1am. Screenshots and shares product recommendations. Trusts peer reviews over expert endorsements.</p>
+    <p><strong>Purchasing behavior:</strong> Will try ANYTHING with peer validation. Cycles through tools fast (2-4 weeks). Price-sensitive but will sacrifice personal spending for child's tools. Insurance-dependent for therapy. Pays out-of-pocket for apps, sensory tools, supplements.</p>
+    <p><strong>Marketing approach:</strong> Facebook group seeding through authentic parent testimonials. TikTok short-form video showing a nonverbal child's avatar expressing emotion for the first time. Do NOT advertise — let parent advocates tell the story. Zero corporate messaging. "From a mom who gets it" positioning.</p>
+    <p><strong>MirrorMatch hook:</strong> "Your child finally has a voice that carries their whole self — not just their needs, but their personality, their humor, their love."</p>
+  </div>
+
+  <!-- ICP 2 -->
+  <div class="c" style="margin-bottom:16px;border-left:3px solid var(--bl)">
+    <div class="rank"><div class="rank-num">#2</div><h3>ABA &amp; Therapy Providers (BCBAs, SLPs, OTs)</h3></div>
+    <span class="tag t-num">~300K US Providers · $50-$200/mo Tool Spend</span>
+    <p><strong>Demographics:</strong> 75% female, 25-45, master's degree or higher. BCBAs, RBTs, SLPs, OTs. Works in clinic, school, or home-based settings. Average caseload 8-20 clients. Burnt out from documentation burden.</p>
+    <p><strong>Psychographics:</strong> Mission-driven but systemically frustrated. Wants to help but drowning in paperwork. Open to technology that reduces administrative load. Cautious about unproven tools. Evidence-driven. Will adopt quickly if peers validate.</p>
+    <p><strong>Digital behavior:</strong> LinkedIn professional groups, BACB forums, ASHA forums, closed Facebook professional groups, state association listservs. Reads JABA, ASAT newsletter. Attends ABAI, ASHA conferences.</p>
+    <p><strong>Purchasing behavior:</strong> Clinic purchase decisions. Will pilot for free, then convert if data shows outcomes. Decisions made by clinical director. Insurance-reimbursement compatibility is essential. Price point: $50-$200/mo per clinician.</p>
+    <p><strong>Marketing approach:</strong> Conference booth presence. CEU/CE credit webinars. Peer-reviewed case study or white paper. Endorsed by respected BCBA or SLP influencer. Free 30-day clinical trial.</p>
+    <p><strong>MirrorMatch hook:</strong> "See your client's emotional reality between sessions — without adding a single minute of documentation."</p>
+  </div>
+
+  <!-- ICP 3 -->
+  <div class="c" style="margin-bottom:16px;border-left:3px solid var(--g)">
+    <div class="rank"><div class="rank-num">#3</div><h3>School Districts &amp; Special Education Departments</h3></div>
+    <span class="tag t-num">~13,800 US Districts · $5K-$50K/yr Per District</span>
+    <p><strong>Demographics:</strong> Special education directors, school psychologists, assistive technology coordinators. District-level purchase decisions. Budget cycle: July-September (fiscal year). IDEA-funded.</p>
+    <p><strong>Psychographics:</strong> Compliance-driven. Overwhelmed by caseloads. Afraid of litigation from parents. Wants tools that demonstrate IEP goal progress. Risk-averse but politically pressured to innovate.</p>
+    <p><strong>Purchasing behavior:</strong> RFP process, committee decision, 6-12 month sales cycle. Require FERPA compliance, data security documentation, accessibility standards. Will pilot in 1-3 schools before district-wide adoption. Price sensitive but budget exists (IDEA funds).</p>
+    <p><strong>Marketing approach:</strong> Present at NASET, CEC, state special ed conferences. Case study from pilot school showing measurable IEP goal achievement. Compliance-first marketing: "FERPA-compliant, zero-storage, IDEA-eligible." Parent demand creates bottom-up pressure.</p>
+    <p><strong>MirrorMatch hook:</strong> "Assistive technology that makes IEP progress visible, measurable, and parent-accessible — with zero data liability."</p>
+  </div>
+
+  <!-- ICP 4 -->
+  <div class="c" style="margin-bottom:16px;border-left:3px solid var(--go)">
+    <div class="rank"><div class="rank-num">#4</div><h3>Late-Diagnosed Adults (Self-Advocates)</h3></div>
+    <span class="tag t-num">~3.5M US Adults with ASD · $15-$49/mo Spend</span>
+    <p><strong>Demographics:</strong> Age 25-55, diagnosed after 18 (often after 30). Disproportionately women and nonbinary. Income $30K-$80K. College-educated but underemployed. Lives alone or with partner. Higher rates of comorbid ADHD, anxiety, depression.</p>
+    <p><strong>Psychographics:</strong> In identity reconstruction. Grief for lost years. Relief at finally understanding themselves. Angry at systems that missed them. Finding community for the first time. Deeply values authenticity. Anti-masking philosophy.</p>
+    <p><strong>Digital behavior:</strong> Reddit power user (r/AutisticAdults, r/AutismInWomen, r/AutisticWithADHD). TikTok consumer and creator. Instagram communities. Blogs. Very online. Peak engagement: evenings and weekends.</p>
+    <p><strong>Purchasing behavior:</strong> Subscription-friendly ($15-$49/mo) if value is clear. Will pay for self-understanding tools. Values privacy extremely highly. Distrustful of corporate intentions. Open source preference. Will pay for community access.</p>
+    <p><strong>Marketing approach:</strong> Reddit AMA or genuine community engagement. Autistic creators as ambassadors (NOT parent voices — this community rejects parent-centric framing). "Nothing about us without us" positioning. Emphasize authenticity mechanics, masking detection, and self-discovery — not "treatment."</p>
+    <p><strong>MirrorMatch hook:</strong> "Finally see where the mask ends and you begin. Your avatar shows your authentic self — and rewards you for being real."</p>
+  </div>
+
+  <!-- ICP 5 -->
+  <div class="c" style="margin-bottom:16px;border-left:3px solid var(--tl)">
+    <div class="rank"><div class="rank-num">#5</div><h3>The Co-Parenting / Custody Parent</h3></div>
+    <span class="tag t-num">~1.2M Families · High Willingness to Pay</span>
+    <p><strong>Demographics:</strong> Divorced or separated, 30-50, one parent "gets it" and one doesn't. Income varies widely. Often in conflict with ex-spouse over therapy, accommodations, parenting style.</p>
+    <p><strong>Psychographics:</strong> Desperate for objective data. Wants to prove to courts, ex-spouse, and family that their child's needs are real. Feels gaslit. Willing to pay significant amounts for evidence. Highly emotional, high engagement.</p>
+    <p><strong>Marketing approach:</strong> Family law attorney partnerships. Custody evaluator referrals. Facebook divorce + autism support groups. Framed as "behavioral pattern insights" — not clinical assessment.</p>
+    <p><strong>MirrorMatch hook:</strong> "Show the judge how your child actually responds to each environment — with weeks of data, not a courtroom performance."</p>
+  </div>
+
+  <!-- ICP 6 -->
+  <div class="c" style="margin-bottom:16px;border-left:3px solid var(--a)">
+    <div class="rank"><div class="rank-num">#6</div><h3>The Father / Secondary Caregiver</h3></div>
+    <span class="tag t-num">~2M+ US · Underserved Segment</span>
+    <p><strong>Demographics:</strong> Male, 30-50. Often works full-time while partner manages therapies. Feels disconnected from the daily journey. Higher presence on Reddit than Facebook. Values data and systems over emotional support groups.</p>
+    <p><strong>Psychographics:</strong> Wants to help but doesn't know how. Feels excluded from the "autism parent" community which is mother-dominated. Processes through problem-solving, not venting. Drawn to tech-forward solutions.</p>
+    <p><strong>Marketing approach:</strong> Reddit (r/daddit, r/Autism_Parenting). Data-forward positioning. "See what your child experienced today in one dashboard." Tech product framing rather than therapy framing.</p>
+    <p><strong>MirrorMatch hook:</strong> "Understand your child's day — their energy, their struggles, their wins — even when you weren't there."</p>
+  </div>
+
+  <!-- ICP 7 -->
+  <div class="c" style="margin-bottom:16px;border-left:3px solid var(--p)">
+    <div class="rank"><div class="rank-num">#7</div><h3>Autistic Teens (13-17 Transition Age)</h3></div>
+    <span class="tag t-num">~1.5M US · Parent-Funded</span>
+    <p><strong>Demographics:</strong> 13-17, diagnosed. Navigating puberty + autism simultaneously. School social dynamics intensifying. Beginning to develop self-advocacy skills. Higher-functioning teens increasingly online.</p>
+    <p><strong>Psychographics:</strong> Identity formation. "Am I autistic or am I ME?" Struggling with peer relationships. Interested in gaming, anime, special interests. Values autonomy. Resistant to being "fixed."</p>
+    <p><strong>Marketing approach:</strong> DO NOT market to directly — market through parents and schools. Avatar gamification appeals to this age. Special interest integration. Voice mode for those who prefer speech. Physical avatar toy for younger end.</p>
+    <p><strong>MirrorMatch hook:</strong> "Your avatar grows stronger the more you're yourself. Level up by being real — not by masking."</p>
+  </div>
+
+  <!-- ICP 8 -->
+  <div class="c" style="margin-bottom:16px;border-left:3px solid var(--bl)">
+    <div class="rank"><div class="rank-num">#8</div><h3>Insurance &amp; Managed Care Companies</h3></div>
+    <span class="tag t-num">~900 US Plans · $50K-$500K/yr Contracts</span>
+    <p><strong>Demographics:</strong> Payer organizations. Medical directors, utilization review teams, behavioral health departments. ABA is their fastest-growing coverage category.</p>
+    <p><strong>Psychographics:</strong> Cost-containment obsessed. Need measurable outcomes to justify coverage. Want tools that demonstrate therapy is working (or isn't) to manage spend. Open to technology that reduces cost per outcome.</p>
+    <p><strong>Marketing approach:</strong> Outcomes data. Cost-per-improvement metrics. Pilot with one payer showing reduced total therapy spend when MirrorMatch augments ABA/speech. White paper + conference presentation at AHIP or AMCP.</p>
+    <p><strong>MirrorMatch hook:</strong> "Measurable behavioral outcomes between sessions — reducing total therapy cost while improving quality."</p>
+  </div>
+</section>
+
+<!-- AUTISTIC INDIVIDUAL ICP -->
+<div class="div"></div>
+<section class="sec w" id="autistic-icp">
+  <div class="sec-n">Section 08</div>
+  <h2>The Autistic Individual ICP — Full Profile</h2>
+  <p class="sec-d">A separate, deeply respectful analysis of the autistic person as a USER (not a patient). This is essential because autistic adults are the fastest-growing segment and the most vocal online community.</p>
+
+  <div class="hl" style="border-left-color:var(--g)">
+    <h4 style="color:var(--g)">Critical Marketing Rule</h4>
+    <p>The autistic adult community REJECTS deficit-based language, parent-centric framing, "awareness" campaigns (they want acceptance, not awareness), puzzle piece imagery, and anything that positions autism as something to be "fixed." Marketing to this segment requires neurodiversity-affirming, identity-first language ("autistic person" not "person with autism"), and autistic people in leadership of any campaign.</p>
+  </div>
+
+  <div class="c" style="margin-bottom:16px;border-left:3px solid var(--g)">
+    <h3>ICP: The Late-Diagnosed Autistic Adult</h3>
+    <span class="tag t-icp">~3.5M US · Fastest Growing Segment</span>
+    <p><strong>Age:</strong> 25-55 (peak: 28-40). <strong>Gender:</strong> Significant female and nonbinary representation (women's diagnosis rates are surging). <strong>Income:</strong> $30K-$80K; underemployed relative to education. <strong>Education:</strong> Often college-educated but with spotty employment history due to burnout, masking fatigue, and workplace mismatch. <strong>Location:</strong> Urban/suburban. Disproportionately in tech, creative, and academic fields.</p>
+    <p><strong>Comorbidities:</strong> ADHD (60-70%), anxiety (40-50%), depression (30-40%), PTSD (from years of masking/bullying), eating disorders (higher in women), burnout syndrome.</p>
+  </div>
+
+  <div class="g g2">
+    <div class="c"><span class="tag t-beh">Emotional Landscape</span><h3>What They Feel</h3>
+    <ul>
+      <li><strong>Grief:</strong> "I spent 30 years being someone I'm not." Diagnosis brings relief AND mourning for lost years</li>
+      <li><strong>Rage:</strong> At systems that failed them — schools, doctors, parents who didn't see it</li>
+      <li><strong>Relief:</strong> "I'm not broken. I'm autistic. It all makes sense now"</li>
+      <li><strong>Identity reconstruction:</strong> Unlearning masking behaviors. Discovering stimming. Rebuilding self</li>
+      <li><strong>Community hunger:</strong> Finding "their people" for the first time. Online communities are lifelines</li>
+      <li><strong>Fatigue:</strong> Masking burnout is their #1 daily struggle. Every social interaction costs energy</li>
+    </ul></div>
+    <div class="c"><span class="tag t-beh">Digital Behavior</span><h3>How They Show Up Online</h3>
+    <ul>
+      <li><strong>Reddit:</strong> Power users. Long-form posts. Deep engagement. Create and moderate communities</li>
+      <li><strong>TikTok:</strong> Both consumers and creators. Autistic creators have massive followings (Paige Layle: 2M+)</li>
+      <li><strong>Discord:</strong> Private servers for autistic adults. Special interest communities. Safe spaces</li>
+      <li><strong>Tumblr:</strong> Still active for neurodivergent community, art, and identity exploration</li>
+      <li><strong>Instagram:</strong> Info-graphic accounts about autism. Meme accounts. Community building</li>
+      <li><strong>Peak times:</strong> Evening (after work masking exhaustion). Late night. Weekends</li>
+      <li><strong>Content preferences:</strong> Memes, personal stories, identity content, practical tips, community validation</li>
+    </ul></div>
+  </div>
+
+  <div class="g g2">
+    <div class="c"><span class="tag t-val">What They Want from Technology</span><h3>Unmet Needs</h3>
+    <ul>
+      <li>A tool that helps them UNDERSTAND themselves — not perform for others</li>
+      <li>Masking detection: "Show me when I'm being real vs. performing"</li>
+      <li>Energy management: track sensory load, social battery, and recovery needs</li>
+      <li>Communication coaching: "How do I say this in a way my NT partner understands?"</li>
+      <li>Safe social spaces: avatar-mediated interaction reduces social anxiety</li>
+      <li>Employment matching based on WHO THEY ARE — not resume keyword games</li>
+      <li>Relationship compatibility that accounts for neurodivergent communication styles</li>
+      <li>Privacy: ABSOLUTE requirement. This community has been surveilled, studied, and pathologized. Zero-storage is mandatory</li>
+    </ul></div>
+    <div class="c"><span class="tag t-val">Why They'll Pay for MirrorMatch</span><h3>The Value Exchange</h3>
+    <ul>
+      <li><strong>$15-$29/mo</strong> for self-discovery tools: masking detection, truth engine, energy tracking</li>
+      <li><strong>$29-$49/mo</strong> for matching features: relationship compatibility, employment matching, community</li>
+      <li><strong>FREE tier</strong> essential for adoption — this community is price-sensitive and distrustful of corporate products</li>
+      <li><strong>The killer feature:</strong> "Invite a friend to experience your skin." For the first time, a neurotypical person can FEEL what sensory overwhelm is like, what masking costs, what their autistic partner/friend/child experiences daily. This is the feature that goes viral</li>
+      <li><strong>Trade-off they'll accept:</strong> Vulnerability (letting the system learn them) in exchange for finally being understood without having to explain</li>
+      <li><strong>Trade-off they WON'T accept:</strong> Data leaving their device. Corporate exploitation. Deficit framing. Being studied without consent</li>
+    </ul></div>
+  </div>
+
+  <div class="hl">
+    <h4>The Autistic Individual Marketing Strategy</h4>
+    <p><strong>DO:</strong> Hire autistic creators and advisors (pay them). Use identity-first language. Position as self-discovery, not treatment. Lead with the empathy skin feature. Partner with ASAN, not Autism Speaks. Launch in r/AutisticAdults with genuine engagement, not ads. Make the free tier genuinely useful. Celebrate neurodivergent strengths through avatar mechanics (special interest gardens, hyperfocus rewards).<br><br><strong>DON'T:</strong> Use puzzle pieces, blue lights, or "awareness" language. Frame autism as a problem to solve. Let parent voices dominate autistic adult spaces. Collect or store data on servers. Use ABA terminology. Pathologize stimming, special interests, or communication differences.<br><br><strong>The winning narrative:</strong> "You've spent your whole life adapting to a world that wasn't built for you. MirrorMatch is built for you. Your avatar rewards authenticity, detects when you're masking, and for the first time lets someone else experience your world — so you can stop explaining and start being understood."</p>
+  </div>
+</section>
+
+<!-- STRATEGY -->
+<div class="div"></div>
+<section class="sec w" id="strategy">
+  <div class="sec-n">Section 09</div>
+  <h2>Strategic Recommendations</h2>
+
+  <div class="g g2">
+    <div class="c"><span class="tag t-val">Channel Priority</span><h3>Marketing Channel Stack</h3>
+    <ul>
+      <li><strong>Tier 1 (Launch):</strong> Facebook parent groups (organic seeding through real parents), Reddit engagement (genuine community participation, NOT ads), TikTok parent influencer partnerships</li>
+      <li><strong>Tier 2 (Month 3-6):</strong> Conference presence (ABAI, ASHA, CEC). Therapy provider partnerships. School district pilots. Autistic creator partnerships for adult segment</li>
+      <li><strong>Tier 3 (Month 6-12):</strong> Insurance company pilots. State contract bids. Academic research partnerships. Mainstream press (autism awareness month — April)</li>
+      <li><strong>Tier 4 (Year 2):</strong> Enterprise (employer autism hiring programs). International expansion. Physical toy line launch. Disney partnership for avatar environments</li>
+    </ul></div>
+    <div class="c"><span class="tag t-val">Key Differentiators</span><h3>Why MirrorMatch Wins This Market</h3>
+    <ul>
+      <li><strong>Zero-storage:</strong> This community is THE most privacy-conscious consumer segment in healthcare. Being the only platform that processes on-device with nothing stored is not a feature — it's the moat</li>
+      <li><strong>Whole person:</strong> Every existing tool addresses a fragment (speech, behavior, scheduling). MirrorMatch sees the human</li>
+      <li><strong>Empathy skins:</strong> Letting someone EXPERIENCE autism from the inside is unprecedented. This is the viral feature that breaks through to the mainstream</li>
+      <li><strong>Avatar authenticity:</strong> The mask/real-skin mechanic directly addresses the #1 adult pain point (masking). No competitor touches this</li>
+      <li><strong>Cross-therapy integration:</strong> The connector hub model finally connects ABA + speech + OT + school + home into one picture</li>
+      <li><strong>Brooks Band integration:</strong> Biometric + behavioral = the missing data layer that makes the avatar real, not hypothetical</li>
+    </ul></div>
+  </div>
+
+  <div class="hl" style="border-left-color:var(--go)">
+    <h4 style="color:var(--go)">Revenue Projection — Autism Vertical Alone</h4>
+    <p><strong>Year 1:</strong> $500K-$1M (100 therapy providers at $200/mo + 2 school district pilots at $25K + 5,000 consumer subscriptions at $29/mo)<br><strong>Year 2:</strong> $3M-$7M (1,000 providers + 20 districts + 25,000 consumers + 2 insurance pilots)<br><strong>Year 3:</strong> $10M-$20M (enterprise scaling + state contracts + international + adult segment explosion)<br><br>The autism vertical alone can build a $20M+ annual business before other MirrorMatch verticals are even fully launched. This is the beachhead.</p>
+  </div>
+</section>
+
+<div class="conf" style="margin-top:40px">⬤ CONFIDENTIAL — SENSORY BRIDGES, INC. — DO NOT DISTRIBUTE ⬤</div>
+
+<footer class="footer">
+  <p>Autism Community Deep Dive — ICP &amp; Market Intelligence Report — March 27, 2026</p>
+  <p style="margin-top:6px">Sensory Bridges, Inc. · Chattanooga, TN · Megan, Founder &amp; CEO</p>
+  <p style="margin-top:6px">General Wellness — Not a medical device. Not intended to diagnose, treat, cure, or prevent any disease.</p>
+</footer>
+
+
+
+</body><div id="aiFabShadowRoot" data-fab-type="react" style="opacity: 1;"><template shadowrootmode="open"><div id="fab-react-root"><div class="fab-root"><div class="acrobat-button-container " style="bottom: 36px;"><div class="acrobat-button " role="button" aria-label="Get summaries and key insights using AI Assistant"><button class="close-btn  "><svg class="close-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_8552_7892" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="14" style="mask-type: alpha;"><path d="M7.82482 7.00034L10.6374 4.18778C10.7893 4.03592 10.7893 3.78969 10.6374 3.63783L10.3625 3.36292C10.2106 3.21106 9.96446 3.21106 9.81255 3.36292L6.99995 6.17548L4.18734 3.36292C4.03543 3.21106 3.78933 3.21106 3.63743 3.36292L3.36247 3.63783C3.21056 3.78969 3.21056 4.03592 3.36247 4.18778L6.17507 7.00034L3.36247 9.81295C3.21056 9.96481 3.21056 10.2111 3.36247 10.3629L3.63743 10.6378C3.78933 10.7897 4.03543 10.7897 4.18734 10.6378L6.99995 7.82526L9.81255 10.6378C9.96446 10.7897 10.2106 10.7897 10.3625 10.6378L10.6374 10.3629C10.7893 10.2111 10.7893 9.96481 10.6374 9.81295L7.82482 7.00034Z" fill="#222222"></path></mask><g mask="url(#mask0_8552_7892)"><rect width="14" height="14"></rect></g></svg><svg class="burger-icon" width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_12188_28876" maskUnits="userSpaceOnUse" x="3" y="3" width="15" height="14" style="mask-type: alpha;"><path d="M15.1285 12.8008H6.37852C6.08867 12.8008 5.85352 13.0359 5.85352 13.3258C5.85352 13.6156 6.08867 13.8508 6.37852 13.8508H15.1285C15.4184 13.8508 15.6535 13.6156 15.6535 13.3258C15.6535 13.0359 15.4184 12.8008 15.1285 12.8008Z" fill="#292929"></path><path d="M6.37852 6.85078H15.1285C15.4184 6.85078 15.6535 6.61562 15.6535 6.32578C15.6535 6.03594 15.4184 5.80078 15.1285 5.80078H6.37852C6.08867 5.80078 5.85352 6.03594 5.85352 6.32578C5.85352 6.61562 6.08867 6.85078 6.37852 6.85078Z" fill="#292929"></path><path d="M15.1285 9.30078H6.37852C6.08867 9.30078 5.85352 9.53594 5.85352 9.82578C5.85352 10.1156 6.08867 10.3508 6.37852 10.3508H15.1285C15.4184 10.3508 15.6535 10.1156 15.6535 9.82578C15.6535 9.53594 15.4184 9.30078 15.1285 9.30078Z" fill="#292929"></path></mask><g mask="url(#mask0_12188_28876)"><rect x="3.75391" y="3" width="14" height="14" fill="#464646"></rect></g></svg></button><div class="icon-container" role="button" tabindex="0" aria-label="Open AI Assistant"><svg id="ImportedIcons" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" class="fab-svg-icon"><path d="m6.21661,16.39534c-1.35034,2.23499-2.67933,3.64758-3.45616,3.64758-.12795.00539-.25276-.04056-.34667-.12762-.14818-.12483-.21629-.32065-.17758-.5105.14764-.80079,1.68628-1.95576,3.98041-3.00946Zm6.49075-3.19656c-.57993.12528-1.1792.27056-1.78689.43544-.4366.11893-.87951.24862-1.32255.38729.23541-.4949.4515-.98554.6398-1.452.24831-.6159.48156-1.232.69564-1.83456.18831.30354.38304.59839.58195.88207.39375.56092.81787,1.09736,1.19205,1.58176Zm-2.99822-10.63684c.08814-.18001.26644-.29855.46653-.31016.51149,0,.62276.63358.62276,1.1638-.06787,1.25011-.29293,2.48669-.66988,3.68055-.85816-2.33642-.73831-3.97319-.41942-4.53419h.00001Zm9.60883,12.20974c-.13359.4402-.56725.71808-1.023.6555-.15594-.00061-.3112-.02054-.46224-.05933-1.07834-.28263-2.07953-.80363-2.92976-1.5246.71719-.11267,1.44198-.17001,2.16797-.17149.48402-.00813.96771.03017,1.44442.11438.43447.09244.92449.33873.80261.98554Zm1.45515-1.0537c-1.01837-.83309-2.33117-1.21735-3.63802-1.06487-.98482.00983-1.96732.09739-2.93836.26187-.62354-.62512-1.19003-1.30467-1.69272-2.03054-.38314-.54455-.73672-1.10931-1.05923-1.69182.54287-1.57384.85986-3.2167.94151-4.87953,0-1.49369-.57564-3.09087-2.19132-3.09087-.56296.01952-1.07528.33036-1.35261.82066-.68906,1.2165-.41298,3.72002.68705,6.26756-.38306,1.17041-.80046,2.31007-1.31196,3.57265-.43687,1.08123-.93191,2.13803-1.48293,3.16579-1.64775.68213-5.15115,2.33642-5.48494,4.16456-.10306.53569.0783,1.08658.47942,1.45629.39145.35044.90217.53779,1.42737.5236,2.10998,0,4.21366-3.003,5.63044-5.58789.80461-.2816,1.62641-.53671,2.44391-.759.8967-.24407,1.76345-.44427,2.58082-.594,1.39014,1.39224,3.25004,2.21523,5.21531,2.30773,1.36751,0,1.87887-.60942,2.06516-1.122.20733-.5893.08589-1.24438-.3189-1.72019Z" fill="var(--iconRed, #d31510)" fill-rule="evenodd"></path></svg></div></div><div class="draggable-handle "><svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.60039 13.0699C5.26313 13.0699 5.80039 12.5327 5.80039 11.8699C5.80039 11.2072 5.26313 10.6699 4.60039 10.6699C3.93765 10.6699 3.40039 11.2072 3.40039 11.8699C3.40039 12.5327 3.93765 13.0699 4.60039 13.0699Z" fill="#292929"></path><path d="M4.60039 8.27109C5.26313 8.27109 5.80039 7.73384 5.80039 7.07109C5.80039 6.40835 5.26313 5.87109 4.60039 5.87109C3.93765 5.87109 3.40039 6.40835 3.40039 7.07109C3.40039 7.73384 3.93765 8.27109 4.60039 8.27109Z" fill="#292929"></path><path d="M4.60039 3.47031C5.26313 3.47031 5.80039 2.93305 5.80039 2.27031C5.80039 1.60757 5.26313 1.07031 4.60039 1.07031C3.93765 1.07031 3.40039 1.60757 3.40039 2.27031C3.40039 2.93305 3.93765 3.47031 4.60039 3.47031Z" fill="#292929"></path><path d="M9.4002 13.0699C10.0629 13.0699 10.6002 12.5327 10.6002 11.8699C10.6002 11.2072 10.0629 10.6699 9.4002 10.6699C8.73745 10.6699 8.2002 11.2072 8.2002 11.8699C8.2002 12.5327 8.73745 13.0699 9.4002 13.0699Z" fill="#292929"></path><path d="M9.4002 8.27109C10.0629 8.27109 10.6002 7.73384 10.6002 7.07109C10.6002 6.40835 10.0629 5.87109 9.4002 5.87109C8.73745 5.87109 8.2002 6.40835 8.2002 7.07109C8.2002 7.73384 8.73745 8.27109 9.4002 8.27109Z" fill="#292929"></path><path d="M9.4002 3.47031C10.0629 3.47031 10.6002 2.93305 10.6002 2.27031C10.6002 1.60757 10.0629 1.07031 9.4002 1.07031C8.73745 1.07031 8.2002 1.60757 8.2002 2.27031C8.2002 2.93305 8.73745 3.47031 9.4002 3.47031Z" fill="#292929"></path></svg></div></div></div></div><style>
+    .acrobat-button-container {
+        position: fixed;
+        right: 0;
+        bottom: 36px;
+        z-index: 2147483646;
+        visibility: visible !important;
+        pointer-events: all;
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    @media print {
+        .acrobat-button-container {
+            display: none !important;
+        }
+    }
+
+    .acrobat-button {
+        position: relative;
+        background: white;
+        display: flex;
+        align-items: center;
+        pointer-events: all;
+        touch-action: none;
+        box-shadow: 0px 2px 8px 0px #00000029;
+        height: 34px;
+        width: 34px;
+        border: 1px solid transparent;
+        background-clip: padding-box, border-box;
+        background-origin: border-box;
+        background-image: linear-gradient(white, white),
+                        linear-gradient(95.85deg, #D73220 0%, #D92361 33%, #7155FA 100%);
+        border-radius: 18px;
+        justify-content: right;
+        margin-right: var(--fab-margin-right, 28px);
+        overflow: hidden;
+    }
+
+    .acrobat-button-container-transparent {
+        opacity: 0.4 !important;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .acrobat-button-container-transparent:hover,
+    .acrobat-button-container-transparent:focus,
+    .acrobat-button-container-transparent:active {
+        opacity: 1;
+    }
+
+    .acrobat-button > svg {
+        flex-shrink: 0;
+        margin: 4px 5px 5px 5px;
+        width: 22px;
+        height: 22px;
+        pointer-events: none;
+        fill: #b40000;
+    }
+    .acrobat-button:has(.close-btn.open),
+    .expand-acrobat-button {
+        width: 64px;
+    }
+
+    .disabled {
+        background: #B1B1B1;
+    }
+
+    .tooltip-text {
+        width: 160px;
+        visibility: hidden;
+        opacity: 0;
+        background-color: #FFFFFF;
+        color: #292929;
+        border-radius: 7px;
+        padding: 4px 1px 5px 9px;
+        position: absolute;
+        z-index: 1;
+        right: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 10px;
+        transition: opacity 0.3s, visibility 0s linear 2s;
+        font-size: 12px;
+        line-height: 15px;
+        font-family: 'adobe-clean', Adobe Clean, sans-serif;
+        filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.12));
+    }
+
+    .tooltip-text::after {
+       content: '';
+       position: absolute;
+       top: 50%;
+       left: 100%;
+       transform: translateY(-50%);
+       border-width: 6px;
+       border-style: solid;
+       border-color: transparent transparent transparent #fff;
+    }
+
+    .show-tooltip {
+        visibility: visible;
+        opacity: 1;
+        line-height: 1.5;
+        font-family: 'adobe-clean', Adobe Clean, sans-serif;
+        transition: opacity 0.3s;
+        transition-delay: 500ms;
+    }
+
+    .close-btn {
+        position: relative;
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .close-btn svg {
+        fill: #464646;
+    }
+
+    .close-btn.showCloseButton {
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        padding: 2px;
+    }
+
+    .fab-view-settings-dialog {
+        display: none;
+        position: absolute;
+        bottom: 40px;
+        z-index: 1;
+    }
+
+    .close-btn:hover {
+        background: #E6E6E6;
+        border-radius: 50%; /* Keep original circular hover */
+        cursor: pointer;
+    }
+
+    .fab-view-settings-dialog.showDialog {
+        display: block;
+    }
+    .close-btn .burger-icon {
+        display: inline;
+        margin-bottom: 2px;
+    }
+    .close-btn .close-icon {
+        display: none;
+    }
+    .close-btn.open .burger-icon {
+        display: none;
+    }
+    .close-btn.open .close-icon {
+        display: inline;
+    }
+    .tooltip-text .tooltip-text-content {
+        font-weight: bold;
+    }
+    .tooltip-text .tooltip-sub-text-text {
+        font-style: italic;
+        font-size: 11px;
+    }
+
+    /* Icon container styles - replaces iframe */
+    .icon-container {
+        width: 33px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: grab;
+        pointer-events: all;
+        flex-shrink: 0;
+        background: transparent;
+        border: none;
+    }
+
+    .icon-container:active {
+        cursor: grabbing;
+    }
+
+    .fab-svg-icon {
+        width: 22px;
+        height: 22px;
+        padding: 5px 5px 5px 6px;
+        pointer-events: none;
+        fill: #b40000;
+    }
+
+    .draggable-handle {
+        display: none;
+        position: absolute;
+        right: var(--drag-handle-right, 12px);
+        cursor: grab;
+    }
+    .draggable-handle-visible {
+        display: flex;
+    }
+
+    /* Font face declarations - for proper font loading in Shadow DOM */
+    @font-face {
+        font-family: 'adobe-clean';
+        font-weight: 400;
+        src: url('chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/css/fonts/AdobeClean-Regular.otf') format('opentype');
+    }
+    @font-face {
+        font-family: 'adobe-clean';
+        font-weight: 700;
+        src: url('chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/css/fonts/AdobeClean-Bold.otf') format('opentype');
+    }
+    @font-face {
+        font-family: 'AdobeClean-Regular';
+        src: url('chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/css/fonts/AdobeClean-Regular.otf') format('opentype');
+    }
+    @font-face {
+        font-family: 'AdobeClean-Bold';
+        src: url('chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/css/fonts/AdobeClean-Bold.otf') format('opentype');
+    }
+    body {
+        font-family: 'AdobeClean-Regular', adobe-clean, "Adobe Clean", sans-serif;
+    }
+
+    .dialog-container {
+        width: 166px;
+        background-color: #ffffff;
+        border-radius: 4px;
+        border: 1px solid #B1B1B1;
+        box-shadow: 0px 1px 4px 0px #00000026;
+        z-index: 1000;
+        padding: 4px;
+        position: relative;
+        margin: 4px 0px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu .menu_item {
+        cursor: pointer;
+        font-family: 'AdobeClean-Regular', adobe-clean, "Adobe Clean", sans-serif;
+        align-content: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.2px;
+        text-align: left;
+        color: #222222;
+        padding: 0px 12px;
+        height: 32px;
+        width: 140px;
+    }
+
+    .menu .menu_item:hover {
+        background-color: #eaeaea;
+    }
+
+    .preferences {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18.2px;
+        text-align: left;
+        color: #464646;
+    }
+
+    .divider {
+        border-top: 1px solid #E6E6E6;
+    }
+
+    /* React-specific wrappers - minimal */
+    .fab-root {
+        font-family: 'adobe-clean', Adobe Clean, sans-serif;
+    }
+
+    button.close-btn {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        z-index: 10; /* Ensure clickable above all other elements */
+        pointer-events: auto;
+    }
+
+    /* FAB Action Pills - From Figma Design */
+    .fab-pills-container {
+        position: absolute;
+        bottom: 42px; /* FAB height (34px) + gap (8px) = 42px */
+        right: var(--fab-margin-right, 28px);
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-end;
+        width: 142px;
+        z-index: 1;
+    }
+
+    .fab-pills-container.pills-below {
+        bottom: auto;
+        top: 42px; /* Same gap when positioned below */
+    }
+
+    /* Extend hover area using ::after pseudo-element - doesn't affect visual layout */
+    .fab-pills-container::after {
+        content: '';
+        position: absolute;
+        top: 100%; /* Start right after the pills content */
+        left: 0;
+        right: 0;
+        height: 8px;
+        background: transparent;
+        pointer-events: auto;
+    }
+
+    .fab-pills-container.pills-below::after {
+        top: auto;
+        bottom: 100%; /* Start right before the pills when positioned below */
+    }
+
+    /* FTE Header - First Time Experience (56px with close button) */
+    .fab-fte-header {
+        position: relative;
+        width: 142px;
+        min-height: 56px;
+        background: #FFFFFF;
+        border-radius: 12px;
+        box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 0px 2px 0px rgba(0, 0, 0, 0.12);
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+
+    .fab-fte-background {
+        position: absolute;
+        left: -13px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 183.33px;
+        height: 126.82px;
+        background: url('chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/images/fab-header-background.svg') no-repeat center;
+        background-size: cover;
+        pointer-events: none;
+        z-index: 0;
+    }
+
+    .fab-fte-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+        color: #222222;
+        padding: 0;
+    }
+
+    .fab-fte-close:hover {
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 12px;
+    }
+
+    .fab-fte-close svg {
+        width: 8px;
+        height: 8px;
+    }
+
+    .fab-fte-text {
+        position: relative;
+        width: 102px;
+        font-family: 'AdobeClean-Bold', adobe-clean, sans-serif;
+        font-weight: 400; /* Use Bold font file directly, not synthetic bold */
+        font-size: 12px;
+        line-height: 16px;
+        color: #222222; /* Figma spec color */
+        z-index: 1;
+        white-space: normal;
+        word-wrap: break-word;
+        margin-left: 16px;
+        margin-right: auto;
+        box-sizing: border-box;
+        -webkit-font-smoothing: subpixel-antialiased; /* Better font rendering */
+        -moz-osx-font-smoothing: auto;
+    }
+
+    /* Hover Header - Normal state (24px without close button) */
+    .fab-hover-header {
+        position: relative;
+        width: 142px;
+        min-height: 24px;
+        background: #FFFFFF; /* White background to show the colorful SVG and text */
+        border-radius: 12px;
+        box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 0px 2px 0px rgba(0, 0, 0, 0.12);
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .fab-hover-background {
+        position: absolute;
+        left: -27px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 212.63px;
+        height: 147.09px;
+        background: url('chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/images/fab-header-background.svg') no-repeat center;
+        background-size: cover;
+        pointer-events: none;
+        z-index: 0;
+    }
+
+    .fab-hover-text {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'AdobeClean-Bold', adobe-clean, sans-serif;
+        font-weight: 400; /* Use Bold font file directly, not synthetic bold */
+        font-size: 12px;
+        line-height: 15px;
+        color: #222222; /* Figma spec color */
+        z-index: 1;
+        white-space: normal;
+        padding: 4px 9px;
+        box-sizing: border-box;
+        -webkit-font-smoothing: subpixel-antialiased; /* Better font rendering */
+        -moz-osx-font-smoothing: auto;
+    }
+
+    /* Individual Pill Buttons */
+    .fab-pill-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0;
+        width: 142px;
+        min-height: 24px; /* Min height, allows growth with content */
+        background: #FFFFFF;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 0px 2px 0px rgba(0, 0, 0, 0.12);
+        cursor: pointer;
+        padding: 0;
+        transition: background 0.2s ease;
+        overflow: visible;
+    }
+
+    .fab-pill-button:hover {
+        background: #D5D5D5;
+    }
+
+    .fab-pill-button:hover .fab-pill-label,
+    .fab-pill-button:hover .fab-pill-icon {
+        color: #000000; /* Hover state color from Figma Alias/content/neutral/hover */
+    }
+
+    .fab-pill-button:active {
+        background: #F4F4F4;
+    }
+
+    .fab-pill-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px 7px 4px 10px; /* Exact Figma specs: top right bottom left */
+        flex-shrink: 0;
+        box-sizing: border-box;
+    }
+
+    .fab-pill-icon img {
+        width: 16px;
+        height: 16px;
+        display: block;
+        flex-shrink: 0;
+        /* SVG icons with currentColor fill will inherit color from parent */
+        filter: brightness(0) saturate(100%) invert(13%) sepia(0%) saturate(0%) hue-rotate(196deg) brightness(97%) contrast(97%); /* #222222 */
+    }
+
+    .fab-pill-button:hover .fab-pill-icon img {
+        filter: brightness(0) saturate(100%); /* #000000 on hover */
+    }
+
+    .fab-pill-label {
+        display: flex;
+        align-items: center;
+        font-family: 'AdobeClean-Bold', adobe-clean, sans-serif;
+        font-weight: 400; /* Use Bold font file directly, not synthetic bold */
+        font-size: 12px;
+        line-height: 15px; /* 1.252 * 12px = 15.024px */
+        color: #222222; /* Default text color from Figma Alias/content/neutral/default */
+        padding: 4px 9px 5px 0; /* Reduced right padding to prevent wrapping */
+        text-align: left;
+        white-space: normal; /* Allow text wrapping for multi-line content */
+        box-sizing: border-box;
+        flex: 1;
+        overflow: visible;
+        -webkit-font-smoothing: subpixel-antialiased; /* Better font rendering */
+        -moz-osx-font-smoothing: auto;
+    }
+</style></template></div></html>
